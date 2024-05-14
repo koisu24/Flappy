@@ -207,7 +207,7 @@ int main() {
     imshow("result", result);
     imshow("mask", mask);
 
-    waitKey(0);*/
+    waitKey(0);
     grabCut(img2, result2, rect2, bg_model, fg_model, 5, GC_INIT_WITH_RECT); //segmentation
     compare(result2, GC_PR_FGD, result2, CMP_EQ);
     Mat mask2(img2.size(), CV_8UC3, cv::Scalar(255, 255, 255));
