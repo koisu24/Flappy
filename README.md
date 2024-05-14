@@ -197,7 +197,7 @@ int main() {
     Mat result, result2, bg_model, fg_model;
     Mat img = imread("Takahiro4.jpg", 1);
     Mat img2 = imread("Takahiro5.jpg", 1);
-    /*imshow("original", img);
+    imshow("original", img);
     grabCut(img, result, rect, bg_model, fg_model, 5, GC_INIT_WITH_RECT); 
     compare(result, GC_PR_FGD, result, CMP_EQ);
     //GC_PR_FGD: GrabCut class 전경 픽셀
