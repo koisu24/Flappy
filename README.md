@@ -186,10 +186,10 @@ void exMyMeanShift() {
 }
 
 int main() {
-    //exCvMeanShift();
-    //exMyMeanShift();
+    exCvMeanShift();
+    exMyMeanShift();
      
-    Rect rect = Rect(Point(79, 20), Point(540, 563));
+   /* Rect rect = Rect(Point(79, 20), Point(540, 563));
     Rect rect2 = Rect(Point(347,148), Point(747, 467));
 
 
@@ -217,6 +217,6 @@ int main() {
     imshow("mask2", mask2);
     waitKey(0);
     destroyAllWindows();
-
+*/
 }
 ```
